@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malioboro - Kunjungan Industri</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 0;
+    }
+    
+    header {
+      background: linear-gradient(rgba(70, 130, 180, 0.8), rgba(70, 130, 180, 0.8)), 
+                  url('malioboro44.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .back-button {
+      display: inline-block;
+      background: #4682b4;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      margin: 1rem 0;
+    }
+    
+    .photo-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    
+    .photo-gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+    
+    .photo-gallery img:hover {
+      transform: scale(1.03);
+    }
+    
+    .economic-model {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      margin: 2rem 0;
+    }
+    
+    .model-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    
+    .model-icon {
+      background: #4682b4;
+      color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1rem;
+      flex-shrink: 0;
+    }
+    
+    footer {
+      background: #4682b4;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Wisata Malioboro</h1>
+      <p>Analisis Ekonomi Kreatif di Destinasi Ikonis</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <a href="index.html" class="back-button"><i class="fas fa-arrow-left"></i> Kembali ke Beranda</a>
+    
+    <h2>Galeri Malioboro</h2>
+    <div class="photo-gallery">
+      <img src="malioboro55.jpeg" alt="Pedagang Kaki Lima">
+      <img src="malioboro66.jpeg" alt="Musik Jalanan">
+      <img src="andong.jpeg" alt="Andong Malioboro">
+    </div>
+    
+    <div class="economic-model">
+      <h2>Model Ekonomi Kreatif Malioboro</h2>
+      <div class="model-item">
+        <div class="model-icon"><i class="fas fa-store"></i></div>
+        <div>
+          <h3>UMKM Kreatif</h3>
+          <p>Ratusan usaha mikro yang menjual produk kerajinan dan souvenir khas Jogja</p>
+        </div>
+      </div>
+      <div class="model-item">
+        <div class="model-icon"><i class="fas fa-utensils"></i></div>
+        <div>
+          <h3>Kuliner Tradisional</h3>
+          <p>Berbagai makanan khas Jogja yang menjadi daya tarik wisatawan</p>
+        </div>
+      </div>
+      <div class="model-item">
+        <div class="model-icon"><i class="fas fa-music"></i></div>
+        <div>
+          <h3>Pertunjukan Jalanan</h3>
+          <p>Seniman jalanan yang menambah nilai wisata Malioboro</p>
+        </div>
+      </div>
+      <div class="model-item">
+        <div class="model-icon"><i class="fas fa-hands-helping"></i></div>
+        <div>
+          <h3>Kemitraan Sosial</h3>
+          <p>Kolaborasi antara pemerintah, pengusaha, dan masyarakat lokal</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Kunjungan Industri SMK | Dokumentasi Kunjungan ke Malioboro</p>
+  </footer>
+</body>
+</html>
